@@ -1,0 +1,56 @@
+# Dependency
+node_modules
+dist
+dist-ssr
+build
+out
+.out
+.output
+.data
+.cache
+.next
+/coverage
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.debug.log*
+yarn.error.log*
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor / IDE Settings
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+# Design / Prototype Files
+*.sketch
+*.fig
+*.xd
+
+# Misc
+Thumbs.db
+.pnp
+.pnp.js
+.fleet
+.prettierignore
+*.local
+*.pem
+.netlify
+
+zone-draft.txt
