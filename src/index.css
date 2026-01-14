@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
 @layer theme, base, components, utilities;
 @import "tailwindcss/theme.css" layer(theme);
 @import "tailwindcss/preflight.css" layer(base);
@@ -9,4 +11,5 @@
   --radius-big: 20px;
   --radius-middle: 8px;
   --radius-small: 6px;
+  --font-display: "Nunito Sans", sans-serif;
 }
