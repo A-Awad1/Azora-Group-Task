@@ -4,4 +4,9 @@
 @import "tailwindcss/utilities.css" layer(utilities);
 
 @theme {
+  --color-light: #ffffff;
+  --color-dark: #26262b;
+  --radius-big: 20px;
+  --radius-middle: 8px;
+  --radius-small: 6px;
 }
