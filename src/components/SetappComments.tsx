@@ -58,7 +58,7 @@ export default function SetappComments() {
           </button>
         </div>
         <div className="grid gap-[20px] lg:grid-cols-3">
-          {comments.map((comment, i) => (
+          {comments.map((comment) => (
             <div key={comment.id} className="rounded-[15px] p-[7px] bg-[#F5F5F5] flex flex-col">
               <p
                 className={`grow rounded-middle font-medium text-[26px] py-[38px] px-[20px] md:min-h-fit lg:h-[300px]`}
