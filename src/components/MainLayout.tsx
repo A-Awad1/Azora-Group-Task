@@ -1,6 +1,7 @@
 import AppHeader from "./AppHeader";
 import IntroContent from "./IntroContent";
 import SetappContent from "./SetappContent";
+import VideosSection from "./VideosSection";
 
 export default function MainLayout() {
   return (
@@ -9,6 +10,9 @@ export default function MainLayout() {
         <AppHeader />
         <IntroContent />
         <SetappContent />
+        <section className="pt-[108px] pb-[20px]">
+          <VideosSection />
+        </section>
       </div>
     </main>
   );

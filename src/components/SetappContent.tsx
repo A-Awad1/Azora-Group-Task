@@ -8,7 +8,7 @@ export default function SetappContent() {
         </p>
       </div>
       <div className="grid gap-[20px]">
-        <article className="col-span-2 rounded-big bg-[#DF96AE] pt-[60px] px-[37px]">
+        <article className="col-span-2 rounded-big bg-[#DF96AE] pt-[60px] px-[10px] md:px-[37px]">
           <div className="flex gap-[32px] pl-[25px]">
             <div className="w-[80px]">
               <img src="/setapp/pc-icon.png" alt="pc icon" />
