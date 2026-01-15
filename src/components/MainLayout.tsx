@@ -4,6 +4,7 @@ import SetappComments from "./SetappComments";
 import SetappContent from "./SetappContent";
 import VideosSection from "./VideosSection";
 import PromotionCard from "./PromotionCard";
+import AppFooter from "./AppFooter";
 
 export default function MainLayout() {
   return (
@@ -13,11 +14,12 @@ export default function MainLayout() {
         <IntroContent />
         <SetappContent />
       </div>
-      <section className="gradient pt-[108px] pb-[20px]">
+      <section className="gradient pt-[108px]">
         <div className="container max-w-[1440px] mx-auto px-[40px]">
           <VideosSection />
           <SetappComments />
           <PromotionCard />
+          <AppFooter />
         </div>
       </section>
     </main>
