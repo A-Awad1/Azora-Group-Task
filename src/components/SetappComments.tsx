@@ -36,16 +36,16 @@ export default function SetappComments() {
           </p>
           <div className="flex items-center gap-[10px]">
             <button>
-              <img src="/facebook-circle.svg" alt="facebook icon" />
+              <img src="/sites-icons/facebook-circle.svg" alt="facebook icon" />
             </button>
             <button>
-              <img src="/twitter-circle.svg" alt="twitter icon" />
+              <img src="/sites-icons/twitter-circle.svg" alt="twitter icon" />
             </button>
             <button>
-              <img src="/instagram-circle.svg" alt="instagram icon" />
+              <img src="/sites-icons/instagram-circle.svg" alt="instagram icon" />
             </button>
             <button>
-              <img src="/youtube-circle.svg" alt="youtube icon" />
+              <img src="/sites-icons/youtube-circle.svg" alt="youtube icon" />
             </button>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default function SetappComments() {
                   <span className="text-dark text-[18px]">{comment.name}</span>
                   <span className="text-[#9F9F9F] text-[14px]">{comment.mail}</span>
                 </div>
-                <img src={`/${comment.site}.svg`} alt={`${comment.site} icon`} />
+                <img src={`/sites-icons/${comment.site}.svg`} alt={`${comment.site} icon`} />
               </div>
             </div>
           ))}

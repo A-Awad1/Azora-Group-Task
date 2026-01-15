@@ -91,16 +91,16 @@ export default function AppFooter() {
           </p>
           <div className="flex items-center gap-[10px]">
             <button>
-              <img src="/facebook-gray.svg" alt="facebook icon" />
+              <img src="/sites-icons/facebook-gray.svg" alt="facebook icon" />
             </button>
             <button>
-              <img src="/twitter-gray.svg" alt="twitter icon" />
+              <img src="/sites-icons/twitter-gray.svg" alt="twitter icon" />
             </button>
             <button>
-              <img src="/instagram-gray.svg" alt="instagram icon" />
+              <img src="/sites-icons/instagram-gray.svg" alt="instagram icon" />
             </button>
             <button>
-              <img src="/youtube-gray.svg" alt="youtube icon" />
+              <img src="/sites-icons/youtube-gray.svg" alt="youtube icon" />
             </button>
           </div>
         </div>

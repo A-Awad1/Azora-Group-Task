@@ -57,7 +57,7 @@ export default function SetappContent() {
           </article>
         </div>
         <button className="flex self-center gap-[11px] text-[20px] font-medium">
-          <img src="/arrow.svg" alt="arrow icon" />
+          <img src="/big-right-arrow.svg" alt="arrow icon" />
           <span>View all superpowers</span>
         </button>
         <div className="flex justify-between gap-4 flex-col md:flex-row md:gap-10">

@@ -39,10 +39,10 @@ export default function IntroContent() {
               Try free for 7 days
             </button>
             <button className="flex justify-center bg-light rounded-small py-[10px] px-[14px]">
-              <img src="/apple.svg" alt="apple icon" />
+              <img src="/sites-icons/apple.svg" alt="apple icon" />
             </button>
             <button className="flex justify-center bg-light rounded-small py-[10px] px-[14px]">
-              <img src="/google.svg" alt="google icon" />
+              <img src="/sites-icons/google.svg" alt="google icon" />
             </button>
           </div>
           <p className="text-center leading-8 text-[18px] xl:w-2/3">
