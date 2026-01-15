@@ -6,12 +6,12 @@ export default function AppHeader() {
   const [menuShow, setMenuShow] = useState(false);
 
   return (
-    <>
+    <div className="big-container">
       <button className="my-5 sm:hidden" onClick={() => setMenuShow(true)}>
         <img className="w-[25px]" src="/menu-icon.svg" alt="menu icon" />
       </button>
       <header className={menuShow ? "flex" : "max-sm:hidden"}>
-        <div className="grow fixed top-0 left-0 h-screen w-3xs flex flex-col gap-[8px] whitespace-nowrap select-none text-[14px] p-[20px] bg-[#404547] sm:bg-transparent sm:static sm:h-auto sm:w-auto sm:flex-row sm:items-center sm:justify-between sm:p-0 sm:pt-[17px] md:gap-[15px] lg:gap-[20px] xl:gap-[30px]">
+        <div className="grow fixed top-0 left-0 h-screen w-3xs flex flex-col gap-[8px] whitespace-nowrap select-none text-[14px] p-[20px] bg-[#404547] sm:bg-transparent sm:static sm:h-auto sm:w-auto sm:flex-row sm:items-center sm:justify-between sm:p-0 sm:pt-[17px] md:gap-[15px] lg:gap-[20px] xl:gap-[30px] z-9">
           <button className="absolute right-2 top-2 sm:hidden" onClick={() => setMenuShow(false)}>
             <img className="w-[25px]" src="/close-icon.svg" alt="close icon" />
           </button>
@@ -38,6 +38,6 @@ export default function AppHeader() {
           </div>
         </div>
       </header>
-    </>
+    </div>
   );
 }

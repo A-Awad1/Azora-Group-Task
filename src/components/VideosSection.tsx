@@ -1,6 +1,6 @@
 export default function VideosSection() {
   return (
-    <>
+    <div className="big-container">
       <section className="relative flex flex-col rounded-big bg-[#765070] pt-[30px] px-[30px] lg:pr-[65px] lg:pl-[90px] lg:flex-row">
         <div className="flex flex-col self-center">
           <p className="mt-[50px] text-[26px] font-medium">
@@ -34,6 +34,6 @@ export default function VideosSection() {
           ></button>
         ))}
       </div>
-    </>
+    </div>
   );
 }

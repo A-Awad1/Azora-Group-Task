@@ -18,12 +18,20 @@
   button {
     @apply cursor-pointer;
   }
+  .big-container {
+    @apply container mx-auto px-[40px] max-w-[1440px];
+  }
+  .small-container {
+    @apply container mx-auto px-[40px] max-w-[1200px];
+  }
   .gradient {
     background: linear-gradient(
       to bottom,
       var(--color-dark) 0%,
-      var(--color-dark) 33.33%,
-      var(--color-dark) 33.33%,
+      var(--color-dark) 16%,
+      var(--color-white) 16%,
+      var(--color-white) 70%,
+      var(--color-dark) 70%,
       var(--color-dark) 100%
     );
   }

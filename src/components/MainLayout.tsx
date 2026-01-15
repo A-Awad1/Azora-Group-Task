@@ -9,18 +9,14 @@ import AppFooter from "./AppFooter";
 export default function MainLayout() {
   return (
     <main className="flex flex-col bg-dark text-light font-display min-h-screen">
-      <div className="container max-w-[1440px] mx-auto px-[40px]">
-        <AppHeader />
-        <IntroContent />
-        <SetappContent />
-      </div>
+      <AppHeader />
+      <IntroContent />
+      <SetappContent />
       <section className="gradient pt-[108px]">
-        <div className="container max-w-[1440px] mx-auto px-[40px]">
-          <VideosSection />
-          <SetappComments />
-          <PromotionCard />
-          <AppFooter />
-        </div>
+        <VideosSection />
+        <SetappComments />
+        <PromotionCard />
+        <AppFooter />
       </section>
     </main>
   );
