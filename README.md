@@ -5,8 +5,9 @@ This task relates to Azora Group.
 ## Technologies Used:
 
 - React
-- Tailwind CSS
 - TypeScript
+- Tailwind CSS
+- Mobile First Approach
 
 ## Deployment Link
 
