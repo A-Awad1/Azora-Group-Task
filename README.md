@@ -1,6 +1,8 @@
 # Azora Group Task
 
-This task relates to Azora Group.
+- This task relates is related to the Azora group and was converted from a figma design.
+
+- Problem solved: The font used in figma is 'Avenir Next', which is not free, so I used a similar font called 'Nunito Sans'.
 
 ## Technologies Used:
 
