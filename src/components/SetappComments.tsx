@@ -27,7 +27,7 @@ const getColor = (index: number) => bgColors[index % bgColors.length];
 
 export default function SetappComments() {
   return (
-    <section className="flex flex-col pt-[145px] pb-[100px] gap-[25px]">
+    <section className="flex flex-col pt-[145px] pb-[25px] gap-[25px]">
       <div className="flex justify-between items-center gap-[15px] flex-col md:flex-row">
         <h2 className="font-semibold text-[36px] text-dark">Setapp in your words.</h2>
         <p className="max-w-[300px] text-[18px] text-dark leading-8 pt-2">

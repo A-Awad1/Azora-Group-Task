@@ -3,6 +3,7 @@ import IntroContent from "./IntroContent";
 import SetappComments from "./SetappComments";
 import SetappContent from "./SetappContent";
 import VideosSection from "./VideosSection";
+import PromotionCard from "./PromotionCard";
 
 export default function MainLayout() {
   return (
@@ -16,6 +17,7 @@ export default function MainLayout() {
         <div className="container max-w-[1440px] mx-auto px-[40px]">
           <VideosSection />
           <SetappComments />
+          <PromotionCard />
         </div>
       </section>
     </main>

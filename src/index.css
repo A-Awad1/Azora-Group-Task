@@ -23,8 +23,8 @@
       to bottom,
       var(--color-dark) 0%,
       var(--color-dark) 33.33%,
-      var(--color-light) 33.33%,
-      var(--color-light) 100%
+      var(--color-dark) 33.33%,
+      var(--color-dark) 100%
     );
   }
 }
