@@ -1,6 +1,7 @@
 const comments = [
   {
     id: 1,
+    color: "#71719a",
     text: "Have been using Setapp for almost two years, and I have to say it's the best and the most cost-effective way of having apps on Mac.",
     site: "twitter",
     name: "Arash Pourhabibi",
@@ -8,6 +9,7 @@ const comments = [
   },
   {
     id: 2,
+    color: "#D9AE89",
     text: "My favorites ❤️ from @Setapp Ulysses, CleanMyMac X, Paste, MindNode, Swift Publisher.",
     site: "instagram",
     name: "Mauricio Sanchez",
@@ -15,15 +17,13 @@ const comments = [
   },
   {
     id: 3,
+    color: "#765070",
     text: "For those of you that wonder where I discover/get all the awesome apps for my Mac that I use, a lot of them are from Setapp!",
     site: "facebook",
     name: "Meredith Sweet",
     mail: "@meredith.sweet.silberstein",
   },
 ];
-
-const bgColors = ["#71719a", "#D9AE89", "#765070"];
-const getColor = (index: number) => bgColors[index % bgColors.length];
 
 export default function SetappComments() {
   return (
@@ -61,9 +61,8 @@ export default function SetappComments() {
           {comments.map((comment, i) => (
             <div key={comment.id} className="rounded-[15px] p-[7px] bg-[#F5F5F5] flex flex-col">
               <p
-                className={`grow rounded-middle font-medium text-[26px] py-[38px] px-[20px] md:min-h-fit lg:h-[300px] bg-[${getColor(
-                  i
-                )}]`}
+                className={`grow rounded-middle font-medium text-[26px] py-[38px] px-[20px] md:min-h-fit lg:h-[300px]`}
+                style={{ backgroundColor: comment.color }}
               >
                 {comment.text}
               </p>
