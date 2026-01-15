@@ -13,3 +13,9 @@
   --radius-small: 6px;
   --font-display: "Nunito Sans", sans-serif;
 }
+
+@layer base {
+  button {
+    @apply cursor-pointer;
+  }
+}
